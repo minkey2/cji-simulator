@@ -71,12 +71,8 @@ h1{
 
 #controls{padding:8px 12px;color:var(--muted);text-align:center}
 
-/* Responsive - portrait prompt */
-@media (orientation:portrait){
-  #rotate-screen{display:flex}
-  #game-root{display:none}
-}
 
 @media (max-width:600px){
   :root{ --player-w:64px; --player-h:64px; --target-w:84px; --target-h:56px; --bullet-w:22px; --bullet-h:22px; --blast-w:56px; --blast-h:56px }
 }
+
