@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <title>Spaceship Shooter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="rotate-screen">Please rotate your device to landscape for the best experience.</div>
+
+    <main id="game-root">
+      <h1>CJI Simulator</h1>
+        <div id="hud">
+        <div id="score">Score: <span id="score-value">0</span></div>
+        <div id="timer">Time: <span id="time-value">0.00</span>s</div>
+        <div id="best">Best: <span id="best-value">—</span>s</div>
+      </div>
+
+      <div id="game-area">
+        <!-- Player (stationary) -->
+        <img id="player" src="image1.png" alt="spaceship" draggable="false" />
+
+        <!-- Bullet template (will be cloned) -->
+        <img id="bullet-template" src="image2.webp" alt="bullet" draggable="false" />
+
+        <!-- Target -->
+        <img id="target" src="image3.webp" alt="target" draggable="false" />
+
+        <!-- Blast effect -->
+        <img id="blast" src="image4.png" alt="blast" draggable="false" />
+
+        <!-- Win splash -->
+        <div id="win-splash">
+          <div class="win-content">
+            <h2>Democracy Achieved!</h2>
+            <div class="times">
+              <div>Run time: <strong id="run-time">0.00s</strong></div>
+              <div>Fastest: <strong id="fastest-time">—</strong></div>
+            </div>
+            <div class="reload-note">Reloading in <span id="reload-countdown">5</span>s...</div>
+            <div class="click-to-reload">(click to reload now)</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="controls">Tap / Click / Space to shoot</div>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>
