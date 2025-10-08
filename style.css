@@ -73,9 +73,10 @@ h1{
 
 
 @media (max-width:600px){
-  :root{ --player-w:64px; --player-h:64px; --target-w:84px; --target-h:56px; --bullet-w:22px; --bullet-h:22px; --blast-w:56px; --blast-h:56px }
+:root{ --player-w:100px; --player-h:100px; --target-w:84px; --target-h:56px; --bullet-w:100px; --bullet-h:100px; --blast-w:84px; --blast-h:84px }
   #player{ margin-bottom: 50px; }  
 }
+
 
 
 
