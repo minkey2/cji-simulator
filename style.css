@@ -74,7 +74,8 @@ h1{
 
 @media (max-width:600px){
   :root{ --player-w:64px; --player-h:64px; --target-w:84px; --target-h:56px; --bullet-w:22px; --bullet-h:22px; --blast-w:56px; --blast-h:56px }
-  #player{ padding-bottom: 20px; }  
+  #player{ margin-bottom: 20px; }  
 }
+
 
 
